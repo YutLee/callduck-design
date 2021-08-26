@@ -1,0 +1,28 @@
+{
+  "name": "callduck-design",
+  "version": "0.0.1",
+  "description": "An enterprise-class UI design language and React components implementation",
+  "keywords": [
+    "callduck",
+    "component",
+    "components",
+    "design",
+    "framework",
+    "frontend",
+    "react",
+    "react-component",
+    "ui"
+  ],
+  "files": ["dist"],
+  "main": "./dist/callduck-design.umd.js",
+  "module": "./dist/callduck-design.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/callduck-design.es.js",
+      "require": "./dist/callduck-design.umd.js"
+    }
+  },
+  "repository": "https://github.com/YutLee/callduck-design.git",
+  "author": "YutLee",
+  "license": "MIT"
+}
